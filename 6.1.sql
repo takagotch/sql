@@ -1,0 +1,106 @@
+#
+SELECT COALESCE(ticket, 'text')
+  FROM sale_price;
+
+#
+SELECT COALESCE(NULL, 1) AS ,
+       COALESCE(NULL, '', NULL) AS ,
+       COALESCE(NULL, NULL, '2017-11-26') AS ,
+
+#
+SELECT CAST('2017-11-26' AS DATE) AS date_col;
+SELECT CAST('' AS INTEGER) AS ;
+
+#
+SELECT CURRENT_TIMESTAMP,
+       EXTRACT( FROM ) AS ,
+       EXTRACT( FROM ) AS ,
+       EXTRACT( FROM ) AS ,
+       EXTRACT( FROM ) AS ,
+       EXTRACT( FROM ) AS ,
+       EXTRACT( FROM ) AS ,
+
+#
+SELECT CURRENT_STAMP;
+SELECT CURRENT_TIME;
+SELECT CURRENT_DATE;
+
+#
+SELECT ,
+       UPPER() AS 
+  FROM 
+ WHERE  IN ();
+
+#
+SELECT ,
+       SUBSTRING( FROM  FOR ) AS 
+  FROM ;
+
+#
+SELECT , , ,
+       REPLACE(, , ) AS 
+  FROM ;
+
+#
+SELECT ,
+       LOWER() AS 
+  FROM 
+ WHERE  IN ('', '', '', '');
+
+#LENGTH
+SELECT ,
+       LENGTH() AS
+  FROM ;
+
+#||
+SELECT , ,
+        || AS 
+  FROM ;
+
+SELECT , , ,
+       || ||
+  FROM 
+ WHERE = '';
+
+#
+--DDL:table
+CREATE TABLE 
+(      VARCHAR(40),
+       VARCHAR(40),
+       VARVHAR(40));
+--DDM:data
+BEGIN TARANSACTION;
+INSERT INTO (, , ) VALUES(, , NULL);
+INSERT INTO (, , ) VALUES(, , NULL);
+INSERT INTO (, , ) VALUES(, , NULL);
+INSERT INTO (, , ) VALUES(, , NULL);
+
+#ROUND
+SELECT ,
+       ROUND(,) AS
+  FROM ;
+
+#MOD
+SELECT ,
+       MOD(,) AS 
+  FROM ;
+
+#ABS
+SELECT ,
+       ABS() AS
+  FROM ;
+
+---DDL
+CREATE TABLE 
+( NUMERIC ()
+  INTEGER,
+  INTEGER);
+---DML
+BEGIN TARANACTION;
+INSERT INTO () VALUES();
+INSERT INTO () VALUES();
+INSERT INTO () VALUES();
+INSERT INTO () VALUES();
+INSERT INTO () VALUES();
+
+
